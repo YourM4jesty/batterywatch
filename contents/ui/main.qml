@@ -418,7 +418,7 @@ PlasmoidItem {
     }
 
     function saveNotificationEnabledDevices() {
-        Plasmoid.configuration.notificationEnabledDevices = notificationEnabledDevices.join(i18n(","));
+        Plasmoid.configuration.notificationEnabledDevices = notificationEnabledDevices.join(",");
     }
 
     function toggleDeviceVisibility(device) {
